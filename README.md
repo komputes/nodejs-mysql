@@ -1,11 +1,13 @@
 # nodejs-mysql
 a simple webapp template
 
-## Build the webapp, tagging it as 'benben'
-## Configure database root user credentials in compose.yml and index.js then run this to spin up mysql and phpmyadmin containers.
+Build the webapp container image, tagging it as 'benben'.
 ```
+git clone https://github.com/komputes/nodejs-mysql.git
 cd nodejs-mysql
+# Configure database root user credentials in compose.yml and index.js and build image.
 docker build . -t benben
+# Spin up mysql, phpmyadmin and benben containers.
 docker-compose up
 ```
 
