@@ -11,7 +11,7 @@ docker build . -t benben
 docker-compose up
 ```
 
-## Log into phpmyadmin at http://localhost:8080 and in the SQL tab list all databases.
+Log into phpmyadmin at http://localhost:8080 and in the SQL tab list all databases.
 ```
 show databases;
 ```
